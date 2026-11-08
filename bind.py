@@ -660,9 +660,7 @@ def quick_convert(message, text):
 def start_cmd(message):
     uid = message.chat.id
     reset_session(uid)
-    welcome = f"""<b>╔════════════════════════════════╗
-║      🤖 @Sayeedbind_bot      ║
-╚════════════════════════════════╝</b>
+    welcome = f"""
 
 👋 Wᴇʟᴄᴏᴍᴇ <b>{message.from_user.first_name}</b>!
 
